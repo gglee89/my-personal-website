@@ -1,8 +1,15 @@
 import React from 'react';
 
+// PAGES
+import Home from './pages/Home';
+
 class App extends React.Component {
   render() {
-    return <div>HELLO WORLD</div>;
+    return (
+      <React.Fragment>
+        <Home />
+      </React.Fragment>
+    );
   }
 }
 
