@@ -2,20 +2,22 @@
 
 The version 2.0 of my personal website.
 
-## Architecture
+## File Structure
 
 ```
 README.md (documentation)
 /dist (static files generated with webpack)
 /src
-	/client
-		/views
-		/js
-		/styles
-		/assets
-			/img
-			/icons
-	/server
+  /client
+    /views
+    /js
+		  /components
+			/pages
+			index.js (webpack entry point)
+    /styles (SASS 7-1 Architecture)
+    /assets
+      /img
+  /server
 		index.js (Node Express Server)
 .babelrc (Transpiling for ReactJS)
 webpack.dev.js (File bundler)
