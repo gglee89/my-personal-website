@@ -1,5 +1,9 @@
-const app = () => {
-  console.log('HELLO FROM app');
-};
+import React from 'react';
 
-export { app };
+class App extends React.Component {
+  render() {
+    return <div>HELLO WORLD</div>;
+  }
+}
+
+export default App;

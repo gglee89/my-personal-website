@@ -1,4 +1,6 @@
-import { app } from './js/app';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-app();
-console.log('HELLO WORLD 3');
+import App from './js/App';
+
+ReactDOM.render(<App />, document.getElementById('root'));
