@@ -4,8 +4,8 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-        <h1 className="logo"></h1>
-        <nav>
+        <h1 className="logo hide-text">Giwoo Gustavo Lee</h1>
+        <nav className="site-nav">
           <ul>
             <li>
               <a href="#about">About</a>
