@@ -11,18 +11,34 @@ README.md (documentation)
   /client
     /views
     /js
-		  /components
-			/pages
-			index.js (webpack entry point)
+      /components
+      /pages
+      index.js (webpack entry point)
     /styles (SASS 7-1 Architecture)
     /assets
       /img
   /server
-		index.js (Node Express Server)
+    index.js (Node Express Server)
 .babelrc (Transpiling for ReactJS)
 webpack.dev.js (File bundler)
 webpack.prod.js (File bundler)
 ```
+
+## Todo Checklist:
+
+**Part 1:**
+
+- [x] Setup Webpack for Development
+
+**Part 2:**
+
+- [x] Setup Starter React Project
+- [x] Setup SASS w/ 7-1 Architecture
+
+**Part 3:**
+
+- [] Prepare Nav Menu (for Desktop)
+- [] Prepare Nav Menu (for Phone/Tablet)
 
 ## References:
 
