@@ -8,6 +8,9 @@ class Home extends React.Component {
     return (
       <div className="home-wrap">
         <Header />
+        <div className="home-sections">
+          <div style={{ height: 2000 }}></div>
+        </div>
       </div>
     );
   }
