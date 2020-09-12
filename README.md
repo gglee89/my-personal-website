@@ -37,8 +37,8 @@ webpack.prod.js (File bundler)
 
 **Part 3:**
 
-- [] Prepare Nav Menu (for Desktop)
-- [] Prepare Nav Menu (for Phone/Tablet)
+- [x] Prepare Nav Menu (for Desktop)
+- [x] Prepare Nav Menu (for Phone/Tablet)
 
 ## References:
 
