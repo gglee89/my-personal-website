@@ -2,6 +2,7 @@ import React from 'react';
 
 // COMPONENT
 import Header from '../components/Header';
+import Columns from '../components/Columns';
 
 class Home extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class Home extends React.Component {
       <div className="home-wrap">
         <Header />
         <div className="home-sections">
-          <div style={{ height: 2000 }}></div>
+          <Columns />
         </div>
       </div>
     );
