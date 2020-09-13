@@ -43,7 +43,7 @@ webpack.prod.js (File bundler)
 **Part 4:**
 
 - [x] Prepare the sections SCAFFOLDING STYLING SYSTEM
-- [] Implement the About section
+- [x] Implement the About section
 
 ## References:
 
