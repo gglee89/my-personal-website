@@ -41,7 +41,6 @@
 .col-1 {
   max-width: 300px;
   margin: 0 10px;
-  background: pink;
 }
 
 .col-2 {
@@ -55,6 +54,16 @@
   background: yellow;
 }
 
+.push-right {
+  margin-left: 330px;
+}
+
+// TYPOGRAPHY
+.home-lead {
+  font-size: 35px;
+  line-height: 1.5;
+}
+
 @media (max-width: map-get($map: $breakpoints, $key: 'medium')) {
   .home-sections .flex {
     display: block;
@@ -66,5 +75,13 @@
 
   .col-50 {
     width: auto;
+  }
+
+  .push-right {
+    margin-left: 10px;
+  }
+
+  .home-lead {
+    margin: 0 30px;
   }
 }

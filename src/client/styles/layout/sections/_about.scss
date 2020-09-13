@@ -1,0 +1,43 @@
+section {
+  &.about {
+    background: {
+      image: url(/src/client/assets/img/about-bg.jpg);
+      position: center bottom;
+      size: cover;
+    }
+
+    h2 {
+      color: #e6d5e5;
+      font: {
+        size: 80px;
+        weight: 400;
+      }
+      line-height: 1.1;
+      margin-top: 0;
+      margin-left: -108px;
+      max-width: 380px;
+    }
+
+    .home-lead {
+      color: #e6d5e5;
+    }
+  }
+}
+
+@media (max-width: map-get($map: $breakpoints, $key: 'medium')) {
+  section {
+    &.about {
+      h2 {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        word-break: break-word;
+      }
+
+      .home-lead {
+        max-width: 300px;
+        word-break: break-word;
+      }
+    }
+  }
+}

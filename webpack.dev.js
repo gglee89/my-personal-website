@@ -14,24 +14,23 @@ module.exports = {
         loader: 'babel-loader',
       },
       {
-        test: /\.scss$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        loader: 'url-loader',
+        options: {
+          limit: 8192,
+          name: 'images/[name].[ext]',
+        },
       },
       {
-        test: /\.(png|jpe?g|gif|svg)/i,
-        loader: 'url-loader', // OR 'file-loader'
-        options: {
-          publicPath: './dist',
-          limit: 8000,
-          name: 'images/[hash]-[name].[ext]',
-        },
+        test: /\.scss$/,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/client/views/index.html',
-      filename: './index.html',
+      filename: 'index.html',
     }),
   ],
 };
