@@ -40,6 +40,11 @@ webpack.prod.js (File bundler)
 - [x] Prepare Nav Menu (for Desktop)
 - [x] Prepare Nav Menu (for Phone/Tablet)
 
+**Part 4:**
+
+- [] Prepare the sections SCAFFOLDING STYLING SYSTEM
+- [] Implement the About section
+
 ## References:
 
 - DevTips  
