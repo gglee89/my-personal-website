@@ -9,7 +9,7 @@ section {
     h2 {
       color: #e6d5e5;
       font: {
-        size: 80px;
+        size: 4.5rem;
         weight: 400;
       }
       line-height: 1.1;
@@ -28,10 +28,11 @@ section {
   section {
     &.about {
       h2 {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 300px;
+        width: 100%;
         word-break: break-word;
+        margin: 0 30px 30px;
+        max-width: 100%;
+        padding: 0;
       }
 
       .home-lead {
