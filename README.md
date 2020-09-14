@@ -45,6 +45,10 @@ webpack.prod.js (File bundler)
 - [x] Prepare the sections SCAFFOLDING STYLING SYSTEM
 - [x] Implement the About section
 
+**Part 5:**
+
+- [] Implement the YouTube section with Parallax
+
 ## References:
 
 - DevTips  
