@@ -1,0 +1,49 @@
+section {
+  &.projects {
+    background: {
+      image: url(/src/client/assets/img/projects-bg-min.jpg);
+      position: center top;
+      size: cover;
+    }
+    color: white;
+
+    .home-cta {
+      color: #2da170;
+    }
+
+    .logo-strip {
+      background: {
+        image: url(/src/client/assets/img/logo-strips.png);
+        position: center 0px;
+        repeat: repeat-y;
+        size: 80%;
+      }
+      width: 100%;
+      position: absolute;
+      margin: -50px 0;
+      height: calc(100% + 100px);
+      top: 0;
+
+      @media (max-width: map-get($map: $breakpoints, $key: 'medium')) {
+        display: none;
+      }
+    }
+
+    .col-1 {
+      justify-content: center;
+      position: relative;
+      height: 700px;
+      flex-direction: column;
+
+      @media (max-width: map-get($map: $breakpoints, $key: 'medium')) {
+        height: auto;
+        display: block;
+        padding: 40px 20px;
+
+        &:first-child {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
