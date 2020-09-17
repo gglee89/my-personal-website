@@ -49,18 +49,15 @@ webpack.prod.js (File bundler)
 
 - [x] Implement the YouTube section with Parallax
 
-**Part 6:**
+**Part 6 (FINALE):**
 
 - [] Implement the Projects section.
-
-**Part 7:**
-
 - [] Implement the Interests section.
-
-**Part 8:**
-
-- [] Implement Mission/Contact section.
-- [] Final Touches
+- [] Implement the Mission section.
+- [] Implement the Contact section.
+- [] Implement the Footer.
+- [] Setup Webpack for Production
+- [] Deploy Application to Github Pages
 
 ## References:
 
